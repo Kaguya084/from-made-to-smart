@@ -3,6 +3,8 @@
 人工核查目录.md
 ch3核验清单.md
 v0.41核查目录.md
+README_v1.0.md   —— 公开版说明
+RELEASE_v1.0.md  —— v1.0 发行描述
 
 # 内部技术文档：含版本审计与协作记录，不公开
 README.md
@@ -12,5 +14,3 @@ README_GITHUB.md
 
 # 公开文件（必须保留在仓库中）
 # LICENSE          —— MIT 版权文件
-# README_v1.0.md   —— 公开版说明
-# RELEASE_v1.0.md  —— v1.0 发行描述
