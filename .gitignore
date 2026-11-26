@@ -1,0 +1,9 @@
+# 内部文档：不公开（GitHub Pages 默认 Jekyll 会渲染根目录 .md）
+交接文档.md
+人工核查目录.md
+ch3核验清单.md
+v0.41核查目录.md
+
+# 内部技术文档：含版本审计与协作记录，不公开
+# 公开说明用 README_v1.0.md / RELEASE_v1.0.md
+README.md

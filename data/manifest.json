@@ -1,0 +1,10 @@
+{
+  "dataVersion": "v0.44",
+  "meta": "meta.json",
+  "items": "items.json",
+  "chapters": [
+    "ch1.json",
+    "ch2.json",
+    "ch3.json"
+  ]
+}

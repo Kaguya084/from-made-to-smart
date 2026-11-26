@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>从制造大国到智造强国</title>
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/app.js"></script>
+<style>
+/* critical CSS：仅用于加载/失败遮罩，保证 style.css 未就绪时也不白屏 */
+#boot{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:#FAFAF8;font:14px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;padding:24px;text-align:center;}
+#boot.hide{display:none;}
+.boot-box{max-width:560px;width:100%;}
+.boot-box h2{font-size:18px;font-weight:500;color:#26215C;margin-bottom:12px;}
+.boot-box pre{white-space:pre-wrap;text-align:left;background:#fff;border:1px solid rgba(44,44,42,.14);border-radius:8px;padding:12px;font-size:12px;overflow:auto;}
+.boot-box button{margin-top:12px;padding:8px 18px;border:1px solid #534AB7;border-radius:8px;background:#EEEDFE;color:#3C3489;cursor:pointer;}
+</style>
+
+</head>
+<body>
+<div id="boot"><div class="boot-box"><p>正在加载资料库…</p></div></div>
+
+<div class="cover" id="view-cover">
+  <h1 id="cover-title"></h1>
+  <p class="sub" id="cover-sub"></p>
+  <div class="cover-actions">
+    <a class="btn btn-primary" href="#/story">进入叙事层</a>
+    <a class="btn btn-ghost" href="#/query">进入查询层</a>
+    <a class="btn btn-ghost" href="#/policy">进入政策层</a>
+  </div>
+  <p class="ver" id="cover-ver"></p>
+</div>
+
+<div class="layout" id="layout">
+  <div class="topbar">
+    <button class="hamburger" id="hamburger">☰</button>
+    <strong style="color:var(--purple-900);font-size:14px;" id="topbar-title"></strong>
+    <span style="width:36px"></span>
+  </div>
+  <aside class="sidebar" id="sidebar">
+    <div class="brand" data-nav="#/">从制造大国到智造强国<small>成果汇报资料库</small></div>
+    <button class="mode-btn" data-nav="#/story" id="mode-story">叙事层 · 主线阅读</button>
+    <button class="mode-btn" data-nav="#/query" id="mode-query">查询层 · 数据检索</button>
+    <button class="mode-btn" data-nav="#/policy" id="mode-policy">政策层 · 政策检索</button>
+    <div class="side-label" id="side-label"></div>
+    <nav class="side-nav" id="side-nav"></nav>
+    <button class="side-back" data-nav="#/">← 返回封面</button>
+  </aside>
+  <div class="progress" id="progress-wrap"><i id="progress"></i></div>
+  <main class="main" id="main"></main>
+</div>
+
+
+</body>
+</html>
