@@ -29,8 +29,8 @@
 
 | 资源 | 地址 |
 |---|---|
-| 仓库 | `https://github.com/Kaguya084/zhizao-atlas` |
-| 在线体验 | 仓库 Settings → Pages 启用后填入 |
+| 仓库 | `https://github.com/Kaguya084/from-made-to-smart` |
+| 在线体验 | `https://kaguya084.github.io/from-made-to-smart/`（仓库 Settings → Pages 启用后生效） |
 | 图文教程 | 本仓库 `README_v1.0.md` |
 
 *Code by Kaguya_084. Finalized on 2026.11.26.*
